@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <title>Car Track Builder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1>Car Track Builder</h1>
+
+<div id="toolbar">
+  <button class="tile-btn active" style="background:#4a8c3f;color:white" onclick="selectTile(this,'grass')">Tráva</button>
+  <button class="tile-btn" style="background:#555;color:white" onclick="selectTile(this,'road')">Silnice</button>
+  <button class="tile-btn" style="background:#3a7bd5;color:white" onclick="selectTile(this,'water')">Voda</button>
+  <button class="tile-btn" style="background:#e63946;color:white" onclick="selectTile(this,'start')">Start</button>
+</div>
+
+<div id="grid"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
